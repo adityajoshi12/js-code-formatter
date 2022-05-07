@@ -1,8 +1,9 @@
 const app = 
 require("express")
 ()
+let port=4000
 
 app.
-listen(4000, () => {
+listen(port, () => {
   console.log("Server started....");
 })
