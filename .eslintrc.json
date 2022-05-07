@@ -4,7 +4,7 @@
     "browser": true,
     "es2021": true
   },
-  "extends": ["google", "prettier"],
+  "extends": ["google", "prettier", "plugin:json/recommended"],
   "parserOptions": {
     "ecmaVersion": "latest"
   },
