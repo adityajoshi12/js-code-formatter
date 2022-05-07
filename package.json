@@ -7,7 +7,7 @@
     "format:check": "prettier --check .",
     "format:write": "prettier --write .",
     "lint:check": "eslint .",
-    "lint:fix": "eslint --ext .json,.js . --fix "
+    "lint:fix": "eslint --ext .json,.js ./src --fix "
   },
   "keywords": [],
   "author": "",
