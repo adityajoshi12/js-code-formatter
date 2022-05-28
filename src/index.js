@@ -1,5 +1,5 @@
 const app = require('express')();
-let port = 4000
+const port = 4000;
 const router = require('./router/index');
 
 app.use('/api', router);
